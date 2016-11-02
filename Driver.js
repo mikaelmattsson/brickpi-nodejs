@@ -1,4 +1,4 @@
-var SerialPort = require('serialport').SerialPort;
+var SerialPort = require('serialport');
 var async = require('async');
 var BitArray = require('./BitArray');
 var PROTOCOL = require('./Protocol');
